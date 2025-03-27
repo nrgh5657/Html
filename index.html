@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>Page Title</title>
+
+    <style>
+
+      /*reset*/
+
+      * {margin:0; box-sizing:border-box;}
+
+      ul, ol, li {list-style:none; margin:0; padding:0;}
+
+      a {text-decoration:none;}
+
+      /*장르별랭킹*/
+
+      #top5 {width: 1200px; height:850px; margin:0 auto;}
+
+      #top5 > h3 {font-size:30px; color:rgb(50, 235, 50); text-align:center; line-height:70px; }
+
+      #top5 > p {font-size:17px; color:#000; text-align:center; line-height:50px; }
+
+      #top5 > .daybyday{font-size:17px; color:#000; text-align:center; line-height:50px; font-weight:bold; }
+
+      #top5 > h5{margin-left: 15px;}
+
+      #top5 > .day {font-size:19px; color:#000; text-align: start; line-height:50px; font-weight: bold;  margin-left: 15px;}
+
+      #top5 > .box {width:200px; height:300px; float:left; margin:20px 20px; }
+
+      #top5 > .box:hover {box-shadow:4px 4px 4px #eee;}
+
+      #top5 > .box > a >img {width:100%; height:200px;}
+
+      #top5 > .box > h4 > a {font-size:15px; color:#000;}
+
+      #top5 > .box > p > a {font-size:12px; color:#000;}
+
+      #top5 > .box >span > a {font-size:12px; color:#666; font-weight:bold;}
+
+      /*지금할인중*/
+
+      #sale {width:1000px; height:800px; margin:0 auto;}
+
+      #sale > h3 {font-size:30px; color:green; text-align:center; line-height:70px; }
+
+      #sale > p {font-size:17px; color:#000; text-align:center; line-height:50px; }
+
+      #sale > .sbox {width:160px; height:300px; float:left; margin:20px 20px;}
+
+      #sale > .sbox:hover {box-shadow:4px 4px 4px #eee;}
+
+      #sale > .sbox > a >img {width:100%; height:200px;}
+
+      #sale > .sbox > h4 > a {font-size:15px; color:#000;}
+
+      #sale > .sbox > p > a {font-siz:12px; color:#000;}
+
+      #sale > .sbox >span > a {font-size:12px; color:#666; font-weight:bold;}
+
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <!----장르별랭킹------>
+
+    <div id="top5">
+
+      <h3>네이버 웹툰</h3>
+
+      <p class="daybyday">요일별 Top5</p>
+      <h5>전체 인기순</h5>
+
+
+      <p class="day">월요 웹툰</p>
+      <div class="box">
+
+        <a href="#"><img src="https://i.namu.wiki/i/a-vG11_MRHCqCbRStpaxv6BUjDPIGj9dz-PEH3yLAIivrpDz2VJaaJ2R3DQpbkJEFTGwdCpMLwFj5wfFlYjiNAMscFT4gTpSHWrCa87M4woYIKbgep63S21oYnwTZTYoXPdclegZABsMNItrYsShpQ.webp" alt=""></a>
+
+        <h4><a href="#">참교육</a></h4>
+
+        <p><a href="#">채용택/한가람</a></p>
+
+        <span><a href="#">★9.89</a></span>
+
+      </div>
+
+      <div class="box">
+
+        <a href="#"><img src="https://i.namu.wiki/i/EyrhZcIJjtzYJ16GO3o00eleL3SLrZx7sCiAh5u1LycrSrvaKwaLvu_DYi94SfOVnoXfNK0VbThr8TxBG724a441wgymyFUyeI2z7zI-0icrfryYMF081JfzvC0mXixJo7SDETlDSHlXX3gA9QvpuA.webp" alt=""></a>
+
+        <h4><a href="#">환생천마"</a></h4>
+
+        <p><a href="#">JP/장영훈/부겸</a></p>
+
+        <span><a href="#">★9.95</a></span>
+
+      </div>
+
+      <div class="box">
+
+        <a href="#"><img src="https://i.namu.wiki/i/Sxd2MdZ9c9yKgNTtKATttnFSJczzLTGig8vm9dC3hDGiUM8Gk_tUlInSkxp7H92lbGallK4X2-B4lqTTGGRyGLjDCHPqCWOGnFpJUt9ipUkePY-fLZVG_XyFRfnYHEFeiXHypPJjxrUSf4PNyip8UQ.webp" alt=""></a>
+
+        <h4><a href="#">왕과의 야행</a></h4>
+
+        <p><a href="#">보리</a></p>
+
+        <span><a href="#">★9.98</a></span>
+
+      </div>
+
+      <div class="box">
+
+        <a href="#"><img src="https://i.namu.wiki/i/r5I4f-UJ2L95HpAkcqcKtocEudIhavx6vXZuF4mV4WUG3X8F71VfEuua2greo2wJm7x887zBnbFTeCMxz-CEMjn8GsyYbqcA68IQFw0x-bx0LKKQC9KvD5tcWnpQ9GuvYsZs67ekuI1hl0bwZL54zw.webp" alt=""></a>
+
+        <h4><a href="#">똑 닮은 딸"</a></h4>
+
+        <p><a href="#">이담</a></p>
+
+        <span><a href="#">★9.98</a></span>
+
+      </div>
+
+      <div class="box">
+
+        <a href="#"><img src="https://i.namu.wiki/i/SPs5OW4CtNv14pfOYvjhn10ZfiwNRM8LGXs0N-VnS8HG-521HLNqC3meRXkoRTm36DhHvcG35ljSCCyNqemqKa4qbgim5a8qz_pzwL5567mxWxD6jbUuKePBSeSHvmS9P4-8iVwwDa8ryqCMt93iYA.webp" alt=""></a>
+
+        <h4><a href="#">윈드브레이커</a></h4>
+
+        <p><a href="#">조용석</a></p>
+
+        <span><a href="#">★9.84</a></span>
+
+        
+      </div>
+
+      <div id="top5">
+  
+        <p class="day">화요 웹툰</p>
+        <div class="box">
+  
+          <a href="#"><img src="https://i.namu.wiki/i/0PVy8-0ygGOWbOtreoC0sCo6bJsVAby7QDIibM1-6aunw2cJOi43DV_337Y7b0KZXuX5Bb9Crr7jrTKJTcc9IKc1Z6jVranNrdUYUeHT4zyQOS2uxsELCqjU3tjQEtYrfom_TYWNe9TK--JXd_jb3A.webp" alt=""></a>
+  
+          <h4><a href="#">김부장</a></h4>
+  
+          <p><a href="#">박만사,남자의이야기/정종택</a></p>
+  
+          <span><a href="#">★9.62</a></span>
+  
+        </div>
+  
+        <div class="box">
+  
+          <a href="#"><img src="https://i.namu.wiki/i/n-nCkjQyLWVtkylXXgihpoqzpcHzIZaEgxfhUlpATAjgIt9Y0PwvGw1Ta9O7aVynocd_rzuss7tNOin81ywOQGJzFf-U_sCAvTZB_hGYJqaATG0WQR16Z4uL4hpN_X-evNl93h8Lp85dnSiZBQL4iA.webp" alt=""></a>
+  
+          <h4><a href="#">괴력난신"</a></h4>
+  
+          <p><a href="#">매드버드/김태형/한중월야</a></p>
+  
+          <span><a href="#">★9.95</a></span>
+  
+        </div>
+  
+        <div class="box">
+  
+          <a href="#"><img src="https://i.namu.wiki/i/hKe8MF3OPsVXAs6qlXZniZbitI2geltgn2iKu_f-ZyTxl-dC9hYIUoyIDxG-8Ds0RXr-3g7nJBHl9hTa6KtuGxKyzXeK3y_82gt8WCgIKzF2RJHC8DvTIfdeweUKdQawNsN0YTQ5WlvwL5mm0frnTA.webp" alt=""></a>
+  
+          <h4><a href="#">절대회귀</a></h4>
+  
+          <p><a href="#">JP/박진환/장영훈</a></p>
+  
+          <span><a href="#">★9.96</a></span>
+  
+        </div>
+  
+        <div class="box">
+  
+          <a href="#"><img src="https://comicthumb-phinf.pstatic.net/20250120_254/pocket_1737369901533naE3G_JPEG/%BD%C3%B8%AE%C1%EE_%C6%F7%BD%BA%C5%CD_%BD%E6%B3%D7%C0%CF_690x1000.jpg" alt=""></a>
+  
+          <h4><a href="#">중증외상센터 :외과의사 백강혁</a></h4>
+  
+          <p><a href="#">홍비치라/한산이가</a></p>
+  
+          <span><a href="#">★9.96</a></span>
+  
+        </div>
+  
+        <div class="box">
+  
+          <a href="#"><img src="https://i.namu.wiki/i/98dE0vlq8NFvMrKCh_FBn1Qx7eRbvIpFqus9ajsZPvIJgVIy2sVhJ8Jqz7PcFsxMw1sui7A0BtL-UiX1p8Ux-w.webp" alt=""></a>
+  
+          <h4><a href="#">낢 이사는 이야기-계속되는 미미한 인생</a></h4>
+  
+          <p><a href="#">서나래</a></p>
+  
+          <span><a href="#">★9.96</a></span>
+  
+          
+        </div>
+        <div id="top5">
+  
+            <p class="day">수요 웹툰</p>
+            <div class="box">
+      
+              <a href="#"><img src="https://i.namu.wiki/i/wJYdTG7V9fJGgO7L90F_Ck8FCu4qGbLKcPqIVx2Qx-4YfdPUL8N_F6QINo32LdghL4EwJ1xzYnPYPSHF-IHFPQ.webp" alt=""></a>
+      
+              <h4><a href="#">화산귀환</a></h4>
+      
+              <p><a href="#">LICO/비가</a></p>
+      
+              <span><a href="#">★9.87</a></span>
+      
+            </div>
+      
+            <div class="box">
+      
+              <a href="#"><img src="https://cdn.mangaupdates.com/image/i471278.jpg" alt=""></a>
+      
+              <h4><a href="#">자기 자?"</a></h4>
+      
+              <p><a href="#">혜룡/영영</a></p>
+      
+              <span><a href="#">★9.91</a></span>
+      
+            </div>
+      
+            <div class="box">
+      
+              <a href="#"><img src="https://comicthumb-phinf.pstatic.net/20230307_259/pocket_1678179635679OIH31_JPEG/%BD%C3%B8%AE%C1%EE_%C7%A5%C1%F6_690x1000.jpg" alt=""></a>
+      
+              <h4><a href="#">전지적 독자 시점</a></h4>
+      
+              <p><a href="#">UMI/슬리피-C/싱숑</a></p>
+      
+              <span><a href="#">★9.95</a></span>
+      
+            </div>
+      
+            <div class="box">
+      
+              <a href="#"><img src="https://shared-comic.pstatic.net/thumb/webtoon/811721/thumbnail/thumbnail_IMAG21_4db2b4b4-ba56-4768-b13f-a81d69e508f5.jpg" alt=""></a>
+      
+              <h4><a href="#">무직백수 계백순"</a></h4>
+      
+              <p><a href="#">지발</a></p>
+      
+              <span><a href="#">★9.98</a></span>
+      
+            </div>
+      
+            <div class="box">
+      
+              <a href="#"><img src="https://i.namu.wiki/i/PT23GyuaGTHv6AL9JPHb08ocG2Q9ygYWcsCGUobCUFpqw2kvVhH1iCVkzhc30S9ZL74Y7knSkmji0DZTLqyxMw.webp" alt=""></a>
+      
+              <h4><a href="#">울어 봐, 빌어도 좋고</a></h4>
+      
+              <p><a href="#">반지/솔체</a></p>
+      
+              <span><a href="#">★9.94</a></span>
+      
+              
+            </div>
+            <div id="top5">
+  
+                <p class="day">목요 웹툰</p>
+                <div class="box">
+          
+                  <a href="#"><img src="https://comicthumb-phinf.pstatic.net/20250205_104/pocket_1738736663802gw0mk_JPEG/%BD%C3%B8%AE%C1%EE_%C6%F7%BD%BA%C5%CD_%BD%E6%B3%D7%C0%CF_690x1000.jpg?type=m260" alt=""></a>
+          
+                  <h4><a href="#">나노마신</a></h4>
+          
+                  <p><a href="#">현절무/금강불괴/한중월야</a></p>
+          
+                  <span><a href="#">★9.86</a></span>
+          
+                </div>
+          
+                <div class="box">
+          
+                  <a href="#"><img src="https://comicthumb-phinf.pstatic.net/20250203_28/pocket_1738580600275qyL1Q_JPEG/%BD%C3%B8%AE%C1%EE_%C6%F7%BD%BA%C5%CD_%BD%E6%B3%D7%C0%CF_690x1000.jpg" alt=""></a>
+          
+                  <h4><a href="#">마흔 즈음에"</a></h4>
+          
+                  <p><a href="#">서쿤스</a></p>
+          
+                  <span><a href="#">★9.87</a></span>
+          
+                </div>
+          
+                <div class="box">
+          
+                  <a href="#"><img src="https://i.namu.wiki/i/EdJ6MjDc01wI81TWTC8I3dR0GglGUXW97v8pcC6HPf5vNWh411my_c2dbVR7i39_db3Ndp-YulIMRnO1Oeq9BA.webp" alt=""></a>
+          
+                  <h4><a href="#">재벌집 막내아들</a></h4>
+          
+                  <p><a href="#">JP/김병관/산경(山景)</a></p>
+          
+                  <span><a href="#">★9.97</a></span>
+          
+                </div>
+          
+                <div class="box">
+          
+                  <a href="#"><img src="https://comicthumb-phinf.pstatic.net/20250101_48/pocket_1735696136062T2kcI_JPEG/%BD%C3%B8%AE%C1%EE%C7%A5%C1%F6_690x1000.jpg?type=m600x314" alt=""></a>
+          
+                  <h4><a href="#">송이연 50살, 이혼 한 달 차</a></h4>
+          
+                  <p><a href="#">인유유</a></p>
+          
+                  <span><a href="#">★9.74</a></span>
+          
+                </div>
+          
+                <div class="box">
+          
+                  <a href="#"><img src="https://i.namu.wiki/i/n-dpruve7DTSn4dYs1ED25eDl87gTFRnYghAMziY6gX607mqBFZevKCUeeq5N4fuck2lI1p56ELtufRwpDo7Qw.webp" alt=""></a>
+          
+                  <h4><a href="#">무사만리행</a></h4>
+          
+                  <p><a href="#">운/배민기</a></p>
+          
+                  <span><a href="#">★9.93</a></span>
+          
+                  
+                </div>
+                <div id="top5">
+  
+                    <p class="day">금요 웹툰</p>
+                    <div class="box">
+              
+                      <a href="#"><img src="https://comicthumb-phinf.pstatic.net/20210721_180/pocket_1626858942737IefMS_JPEG/__690x1000.jpg" alt=""></a>
+              
+                      <h4><a href="#">광마회귀</a></h4>
+              
+                      <p><a href="#">JP/이히/유진성</a></p>
+              
+                      <span><a href="#">★9.97</a></span>
+              
+                    </div>
+              
+                    <div class="box">
+              
+                      <a href="#"><img src="https://i.namu.wiki/i/beg09ZOpg8ts1WUCtFOTcbvz-jUogoq39oFGJqcJ17wAb4U_8aDtLJWdVbkd1NHI6va4r3dq7O4h8kbWityvng.webp" alt=""></a>
+              
+                      <h4><a href="#">역대급 영지 설계사</a></h4>
+              
+                      <p><a href="#">이현민/김현수/문백경</a></p>
+              
+                      <span><a href="#">★9.98</a></span>
+              
+                    </div>
+              
+                    <div class="box">
+              
+                      <a href="#"><img src="https://i.namu.wiki/i/47TvA76bcQ4fMDnu115Fx8wBPS-CtLSj6Q3UWtQiwqFkLCln0fpVq95Rh9oUv2q-TDxPNt1vwaLhtd3MPgtPLQ.webp" alt=""></a>
+              
+                      <h4><a href="#">외모지상주의</a></h4>
+              
+                      <p><a href="#">박태준</a></p>
+              
+                      <span><a href="#">★9.45</a></span>
+              
+                    </div>
+              
+                    <div class="box">
+              
+                      <a href="#"><img src="https://comicthumb-phinf.pstatic.net/20250206_132/pocket_1738825593526Rxexk_JPEG/%BD%C3%B8%AE%C1%EE_%C6%F7%BD%BA%C5%CD_%BD%E6%B3%D7%C0%CF_690x1000.jpg" alt=""></a>
+              
+                      <h4><a href="#">나 혼자 만렙 뉴비</a></h4>
+              
+                      <p><a href="#">WAN.Z/스윙뱃/메슬로우</a></p>
+              
+                      <span><a href="#">★9.93</a></span>
+              
+                    </div>
+              
+                    <div class="box">
+              
+                      <a href="#"><img src="https://comicthumb-phinf.pstatic.net/20240829_269/pocket_17249018234349Fewi_JPEG/%BD%C3%B8%AE%C1%EE_%C6%F7%BD%BA%C5%CD_%BD%E6%B3%D7%C0%CF_690x1000.jpg" alt=""></a>
+              
+                      <h4><a href="#">재혼 황후</a></h4>
+              
+                      <p><a href="#">히어리/숨풀/알파타르트</a></p>
+              
+                      <span><a href="#">★9.84</a></span>
+              
+                      
+                    </div>
+                    <div id="top5">
+  
+                        <p class="day">토요 웹툰</p>
+                        <div class="box">
+                  
+                          <a href="#"><img src="https://cdn.mangaupdates.com/image/i471278.jpg" alt=""></a>
+                  
+                          <h4><a href="#">자기 자?</a></h4>
+                  
+                          <p><a href="#">혜룡/영영</a></p>
+                  
+                          <span><a href="#">★9.91</a></span>
+                  
+                        </div>
+                  
+                        <div class="box">
+                  
+                          <a href="#"><img src="https://comicthumb-phinf.pstatic.net/20240531_11/pocket_1717144748904n32Ls_JPEG/%BD%C3%B8%AE%C1%EE_%C6%F7%BD%BA%C5%CD_%BD%E6%B3%D7%C0%CF_690x1000.jpg" alt=""></a>
+                  
+                          <h4><a href="#">아수라</a></h4>
+                  
+                          <p><a href="#">류기운/문정후</a></p>
+                  
+                          <span><a href="#">★9.94</a></span>
+                  
+                        </div>
+                  
+                        <div class="box">
+                  
+                          <a href="#"><img src="https://comicthumb-phinf.pstatic.net/20230323_13/pocket_1679560945679Kb0IK_JPEG/%BD%C3%B8%AE%C1%EE_%C7%A5%C1%F6_690x1000.jpg" alt=""></a>
+                  
+                          <h4><a href="#">마도전생기</a></h4>
+                  
+                          <p><a href="#">포스스튜디오/codezero</a></p>
+                  
+                          <span><a href="#">★9.90</a></span>
+                  
+                        </div>
+                  
+                        <div class="box">
+                  
+                          <a href="#"><img src="https://i.namu.wiki/i/84ZBPcT896es0U6TRPkXxswdR-RMtSNqFozKNyMJ89Kv779NkOyU05YzVSvw0_oWzjg-lEYSOgNGXLDcRUsQfQ.webp" alt=""></a>
+                  
+                          <h4><a href="#">시든 꽃에 눈물을</a></h4>
+                  
+                          <p><a href="#">개</a></p>
+                  
+                          <span><a href="#">★9.97</a></span>
+                  
+                        </div>
+                  
+                        <div class="box">
+                  
+                          <a href="#"><img src="https://i.namu.wiki/i/IAVWiabR_5fFwVVcblQUmyHTWIAIH7Ji2w1eehCAYwW9nNzRxzB6Bn4HNnVoxg9GDwpzmUuklGqs3t9to6TyTg.webp" alt=""></a>
+                  
+                          <h4><a href="#">낢이 사는 이야기 - 계속되는 미미한 인생</a></h4>
+                  
+                          <p><a href="#">서나래</a></p>
+                  
+                          <span><a href="#">★9.96</a></span>
+                  
+                          
+                        </div>
+              
+  
+                <div id="top5">
+  
+                    <p class="day">일요 웹툰</p>
+                    <div class="box">
+              
+                      <a href="#"><img src="https://shared-comic.pstatic.net/thumb/webtoon/811721/thumbnail/thumbnail_IMAG21_4db2b4b4-ba56-4768-b13f-a81d69e508f5.jpg" alt=""></a>
+              
+                      <h4><a href="#">무직백수 계백순</a></h4>
+              
+                      <p><a href="#">지발</a></p>
+              
+                      <span><a href="#">★9.86</a></span>
+              
+                    </div>
+              
+                    <div class="box">
+              
+                      <a href="#"><img src="https://shared-comic.pstatic.net/thumb/webtoon/758150/thumbnail/thumbnail_IMAG21_4135492154714961716.jpg" alt=""></a>
+              
+                      <h4><a href="#">입학용병</a></h4>
+              
+                      <p><a href="#">YC/락현</a></p>
+              
+                      <span><a href="#">★9.90</a></span>
+              
+                    </div>
+              
+                    <div class="box">
+              
+                      <a href="#"><img src="https://i.namu.wiki/i/VIyxSLu-MUOwd1s1ZLRBsmK1Ho7MboB0TXpO1uRC5u5VJLCrAodqTwtAo_fsbdv-Kzx3RWVTULQu3dPCrnQfng.webp" alt=""></a>
+              
+                      <h4><a href="#">별이삼샵</a></h4>
+              
+                      <p><a href="#">혀노</a></p>
+              
+                      <span><a href="#">★9.95</a></span>
+              
+                    </div>
+              
+                    <div class="box">
+              
+                      <a href="#"><img src="https://comicthumb-phinf.pstatic.net/20240221_34/pocket_1708484699560BuVVo_JPEG/%B1%E2%B1%E2%B1%AB%B1%AB2_%BD%C3%B8%AE%C1%EE_%C7%A5%C1%F6_690x1000.jpg" alt=""></a>
+              
+                      <h4><a href="#">기기괴괴2</a></h4>
+              
+                      <p><a href="#">오성대</a></p>
+              
+                      <span><a href="#">★9.87</a></span>
+              
+                    </div>
+              
+                    <div class="box">
+              
+                      <a href="#"><img src="https://i.namu.wiki/i/eRRwT3nSJ9wL1N_uGv4pizHJDYE5nwODETbcWCZ9BUZ0ged9Ublbiov2AI_WBK-4H3Gfj9_iGwLJ4CCJbfImvQ.webp" alt=""></a>
+              
+                      <h4><a href="#">고대동물기</a></h4>
+              
+                      <p><a href="#">고제형</a></p>
+              
+                      <span><a href="#">★9.96</a></span>
+              
+                      
+                    </div>                                 
+
+        
+     
+      
+      
+
+     
+
+    
+
+    
+
+
+  </body>
+
+</html>
