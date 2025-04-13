@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+
+/*reset*/
+* {margin:0; box-sizing:border-box;}
+ul, ol, li {list-style:none; margin:0; padding:0;}
+a {text-decoration: none; color: #000;}
+
+/*header*/
+header {width:1765px; height:210px; margin:0 auto; border-bottom: 2px solid #eee;}
+#like {width:160px; height:30px; float:left; margin:20px 30px 0 0px;}
+#like > ul > li > a {font-size:11px; color:#666; float:left; margin:7px 5px;}
+
+/*로그인*/
+#login {width:310px; height:30px; float:right; margin:20px 0;}
+#login > ul {font-size:11px; color:#666;}
+
+#login > ul> li {float:left; margin:7px 4px;}
+#login > ul> li > a {float:left; margin:7px 4px;}
+#login > ul> li > a:hover { color: #666;}
+
+
+/*로고*/
+#logo {width: 210px; height: 60px; float: left; margin: 65px 0 0 585px;}
+#logo > img {width:100%; height:100%;}
+
+/*네비*/
+nav {width: 1150px; height: 50px; float:left; margin: 20px 0 0 330px;}
+nav > ul {font-size: 14px;}
+nav > ul > li > a {float: left; margin: 15px 25px 0 20px;}
+nav > ul > li > a:hover { color: #666;}
+
+/*아이콘*/
+#icon {width:150px; height:40px; float:right; margin:30px 0 0 0;}
+#icon > .iconbox > img {width:30px; height:30px; float:left; margin:0 10px 0;}
+
+#slider {width:100%; height:595px; margin:0 auto; display: flex; flex-wrap: wrap; justify-content: center; align-content: center;}
+#slider > img {width:100%; height:595px;}
+
+
+section{width: 1275px; height : 3500px;  margin: 0 auto; background-color: aqua;}
+
+#best{width: 1275px; height: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: center; align-content: center; background-color: chartreuse;}
+#best > h3{width: 100%; text-align: center; line-height: 20px;}
+#best > p{width: 100%; font-size: 15px; color:#666; text-align:center; line-height:50px; margin:0 0 8px 0;}
+#best >  ul{width: 100%; font-size:16px; color:#000; text-align:center; line-height:50px; margin:0 0 25px 0; display:flex; justify-content:center; flex-wrap:wrap; align-content:center;}
+#best >  ul >li{float:left; margin:0 20px 0;}
+
+#best > .best{width:300px; height:400px; margin:0 7px 65px; background-color: violet;}
+#best > .best >img { width:100%; height:280px; margin:0 0 10px 0;}
+#best > .best > h4{width:280px; font-size: 13px; margin:0 0 10px 0;}
+#best > .best > h5{width:280px; font-size: 12px; margin:0 0 10px 0;}
+#best > .best > span{width:280px; font-size: 13px; margin:0 0 10px 0;}
+
+
+#only{width: 1275px; height: 700px; margin: 0 auto;  display: flex; flex-wrap: wrap; justify-content: center; align-content: center; background-color: gold;}
+#only > h3{width: 100%; text-align: center; line-height: 20px;}
+#only > p{width: 100%; font-size: 15px; color:#666; text-align:center; line-height:50px; margin:0 0 8px 0;}
+#only >  ul{width: 100%; font-size:16px; color:#000; text-align:center; line-height:50px; margin:0 0 25px 0; display:flex; justify-content:center; flex-wrap:wrap; align-content:center;}
+#only >  ul >li{float:left; margin:0 20px 0;}
+
+#only > .only{width:235px; height:400px; margin:0 7px 65px; background-color: violet;}
+#only > .only >img { width:100%; height:280px; margin:0 0 10px 0;}
+#only > .only > h4{width:280px; font-size: 13px; margin:0 0 10px 0;}
+#only > .only > h5{width:280px; font-size: 12px; margin:0 0 10px 0;}
+#only > .only > span{width:280px; font-size: 13px; margin:0 0 10px 0;}
+
+#new{width: 1275px; height: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: center; align-content: center; background-color: tomato;}
+#new > h3{width: 100%; text-align: center; line-height: 20px;}
+#new > p{width: 100%; font-size: 15px; color:#666; text-align:center; line-height:50px; margin:0 0 8px 0;}
+#new >  ul{width: 100%; font-size:16px; color:#000; text-align:center; line-height:50px; margin:0 0 25px 0; display:flex; justify-content:center; flex-wrap:wrap; align-content:center;}
+#new >  ul >li{float:left; margin:0 20px 0;}
+
+#new > .new{width:300px; height:400px; margin:0 7px 65px; background-color: violet;}
+#new > .new >img { width:100%; height:280px; margin:0 0 10px 0;}
+#new > .new > h4{width:280px; font-size: 13px; margin:0 0 10px 0;}
+#new > .new > h5{width:280px; font-size: 12px; margin:0 0 10px 0;}
+#new > .new > span{width:280px; font-size: 13px; margin:0 0 10px 0;}
+
+#event {background-color:#eee; width:1275px; height:400px; margin:40px 0 0 0; display: flex; flex-wrap: wrap; justify-content: center; align-content: center;}
+#event > h3 {width: 100%; font-size:23px; color:#000; text-align:center; line-height:60px; letter-spacing:2px; margin:0 0 10px 0;}
+#event > p {width: 100%; font-size:17px; color:#666; text-align:center; margin:0 0 30px 0;}
+#event > span {width:280px; font-size: 13px; text-align:center;}
+
+
+/*footer*/
+footer {width:100%; height:590px; margin:0 auto; background-color:#eee;}
+
+/*footer 박스*/
+#footbox {width:1765px; height: 360px; float:left; margin:90px 70px 0;}
+
+/*footer 로고*/
+#flbox {width:800px; height:320px; float:left; margin:10px 0 0 0;}
+#flbox > img {width:175px; height:40px; float:left; margin:0 0 0 10px;}
+
+/*회사소개*/
+#flbox > ul {width:800px; height:55px; float:left; margin: 45px 0 0 0;}
+#flbox > ul {font-size:13px; color:#000; text-align:center;}
+#flbox > ul > li {float:left; margin:0 8px 0;}
+
+/*쇼핑몰 기본정보*/
+#flbox > h3 {width: 100%; float: left; font-size:13px; color:#000; line-height:25px; margin:0 0 15px 8px;}
+#flbox > p {width: 100%; float: left; font-size:11px; color:#000; line-height:23px; margin:0 8px 0;}
+
+/*고객 센터 정보*/
+#fr1box {width:180px; height:100px; float:right; margin:100px 10px 0 0;}
+#fr1box > h3 {font-size:13px; color:#000; line-height:25px; margin:0 0 15px 0;}
+#fr1box > p {font-size:12px; color:#000; line-height:25px; margin:0;}
+
+/*결제 정보*/
+#fr2box {width:200px; height:200px; float:right; margin:100px 80px 0 0;}
+#fr2box > h3 {font-size:13px; color:#000; line-height:25px; margin:0 0 15px 0;}
+#fr2box > p {font-size:12px; color:#000; line-height:25px; margin:0;}
+
+/*저작권*/
+#copybox {width:1765px; height:140px; float:left; border-top:1px solid #666; margin:0 70px 0;}
+#copybox > p {float:left; width:400px; height:120px; display:flex; flex-wrap:wrap; align-content:center; font-size:12px; margin: 0 5px; color: #666;}
+
+/*sns*/
+#copybox > ul {width:390px; height:40px; float:right; margin:25px 0 0 0;}
+#copybox > ul > li {font-size:14px; color:#000; line-height:25px; margin:0; float: left;}
+#copybox > ul > li > img {width:28px; height:28px; float:left; margin:0 15px 0;}

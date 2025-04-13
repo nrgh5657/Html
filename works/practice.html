@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        a { text-decoration: none; }
+        
+        header {
+            width: 100%; height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        header > h2 {
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 250px); 
+            gap : 35px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .catalog {
+            width: 250px;
+            height: 250px;
+            border: 1px solid rgb(78, 78, 78);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .catalog >a >img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover; 
+        }
+        .catalog:hover {
+            box-shadow: 3px 3px 10px 10px rgba(148, 148, 148, 0.5);
+
+        }
+    </style>
+</head>
+<body>
+    <header><h2>원하는 상품을 클릭해 주세요!! 마구마구^^</h2></header>
+    <div><hr></div>
+    <div class="container">
+        <div class="catalog"><a href="#"><img src="../image/1.jpg" alt="상품1"></a></div>
+        <div class="catalog"><a href="#"><img src="../image/2.jpg" alt="상품2"></a></div>
+        <div class="catalog"><a href="#"><img src="../image/3.jpg" alt="상품3"></a></div>
+        <div class="catalog"><a href="#"><img src="../image/4.jpg" alt="상품4"></a></div>
+        <div class="catalog"><a href="#"><img src="../image/5.jpg" alt="상품5"></a></div>
+        <div class="catalog"><a href="#"><img src="../image/6.jpg" alt="상품6"></a></div>
+        <div class="catalog"><a href="#"><img src="../image/7.jpg" alt="상품7"></a></div>
+        <div class="catalog"><a href="#"><img src="../image/8.jpg" alt="상품8"></a></div>
+        <div class="catalog"><a href="#"><img src="../image/9.jpg" alt="상품9"></a></div>
+        <div class="catalog"><a href="#"><img src="../image/10.jpg" alt="상품10"></a></div>
+      
+    </div>
+</body>
+</html>
+
